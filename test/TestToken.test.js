@@ -1,8 +1,8 @@
 const { assert } = require("chai");
 
-const tkoToken = artifacts.require('TKOToken');
+const tkoToken = artifacts.require('TestToken');
 
-contract('TKOToken', function(accounts) {
+contract('TestToken', function(accounts) {
 
     var contract_instance;
 
